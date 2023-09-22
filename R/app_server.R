@@ -629,7 +629,8 @@ app_server <- function(input, output, session) {
                    }
                    LD_hmp <- reactive({
                      req(input$uploadgeno)
-                     LD_hmp_data <- read_delim(input$uploadgeno$datapath)
+                     LD_hmp_data <- read_delim(input$uploadgeno$datapath,
+                                              col_types = cols(chrom = col_character())
                      return(LD_hmp_data)
                    })
                    userchoice_chrom <- input$LD_Chromosome
