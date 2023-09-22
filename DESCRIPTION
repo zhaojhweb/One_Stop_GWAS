@@ -1,0 +1,42 @@
+Package: rGWAS
+Title: One-stop GWAS analysis tool
+Version: 1.0.0
+Authors@R: 
+    person(given = "JUNHENG",
+           family = "ZHAO",
+           role = c("aut", "cre"),
+           email = "zhaojh96@outlook.com")
+Description: rGWAS is an interactive GWAS analysis tool developed based on GAPIT, clusterProfiler and other tools, which provides one-stop services, including genotype structure analysis, phenotypic data analysis, GWAS, gene enrichment analysis and a series of visualizations.
+License: What license is it under?
+Imports: 
+    ape,
+    clusterProfiler,
+    config (>= 0.3.2),
+    data.table,
+    dplyr,
+    DT,
+    GAPIT,
+    genetics,
+    ggcorrplot,
+    ggplot2,
+    ggtree,
+    GO.db,
+    golem (>= 0.4.1),
+    LDheatmap,
+    magrittr,
+    Phenotype,
+    plotly,
+    qqman,
+    readr,
+    scatterplot3d,
+    shiny (>= 1.7.5),
+    shinydashboard
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    tidyverse
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
