@@ -1,1 +1,1 @@
-# rGWAS
+# One-stop GWAS
